@@ -1,0 +1,10 @@
+CREATE DATABASE IF NOT EXISTS MyTEST;
+use MyTEST;
+CREATE TABLE IF NOT EXISTES user(
+name varchar(20),
+userid int,
+PRIMARY KEY (userid));
+
+INSERT INTO user VALUES('TOM',1);
+INSERT INTO user VALUES('BEN',2);
+
